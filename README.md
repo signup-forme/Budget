@@ -128,7 +128,7 @@ python -m app delete \
   --id TX-(식별번호)
 ```
 
-### python -m budget_app export : CSV 내보내기
+### python -m app export : CSV 내보내기
 
 - 월별
 → --month 필수
@@ -145,3 +145,18 @@ python -m app export \
   --from 2026-09-01 \
   --to 2026-09-30
 ```
+
+### python -m app import : CSV 불러오기
+
+``` bash
+python -m budget_app import \
+  --from import.csv
+```
+
+일부 데이터가 잘못된 경우 전체 작업을 중단하지 않고 잘못된 행을 건너뛰며 처리 건수를 출력
+``` bash
+[완료] imported=8, skipped=2
+```
+
+## 3. CSV 스키마
+
