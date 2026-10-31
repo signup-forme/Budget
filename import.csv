@@ -1,5 +1,8 @@
 date,type,category,amount,memo,tags
 2026-10-18,expense,dessert,35000,생일케이크,birthday
 2026-10-25,income,earnings,1000000,장학금,scholarship
-2026-11-03,hello,earnings,50000,심부름-용돈,pocket-money
+2026-11-14,expense,shopping,15000,물품-구매,shopping
+2026-11-14,income,refund,-15000,잘못된-물품-환불,refund
+2026-11-14,expense,shopping,16000,물품-구매,shopping
+2026-12-09,hello,earnings,50000,심부름-용돈,pocket-money
 2026-13-01,expense,dessert,5900,멜론소다,drink
